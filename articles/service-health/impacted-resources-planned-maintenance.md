@@ -1,16 +1,16 @@
 ---
-title: Resource impact from Azure planned maintenance events
-description: This article details where to find information from Azure Service Health about how Azure Planned Maintenance impact your resources.
+title: Resource Impact from Azure planned maintenance events
+description: This article details where to find information from Azure Service Health about how Azure Planned Maintenance impacts your resources.
 ms.topic: conceptual
 ms.date: 9/29/2023
 ---
 
-# Resource impact from Azure planned maintenance
+# Resource Impact from Azure planned maintenance
 
 In support of the experience for viewing Impacted Resources, Service Health has enabled a new feature to:
 
 - Display resources that are impacted by a planned maintenance event.
-- Provide impacted resources information for planned maintenance via the Service Health Portal. 
+- Provide Impacted resources information for planned maintenance via the Service Health Portal. 
 
 This article details what is communicated to users and where they can view information about their impacted resources.
 
@@ -23,7 +23,7 @@ In the Azure portal, the **Impacted Resources** tab under **Service Health** > *
 
 :::image type="content" source="./media/impacted-resource-maintenance/grid-image.PNG" alt-text="Screenshot of planned maintenance impacted resources in Azure Service Health.":::
 
-Service Health provides the information below   on resources impacted by a planned maintenance event:
+Service Health provides the information below on resources impacted by a planned maintenance event:
 
 |Fields  |Description |
 |---------|---------|
@@ -58,7 +58,7 @@ The list of impacted resources can be exported to an excel file by clicking on t
 
 The CSV file includes the properties associated with each event and additional details per event level. This CSV could be used as a static point in time snapshot for all the active events under the Service Health Planned Maintenance view. These details are a subset of more event level information available through Service Health API, which could be integrated with Event Grid or other events automation solutions.
 
-:::image type="content" source="./media/impacted-resource-maintenance/SH-PM-CSV-2.png" alt-text="Screenshot of csv file format.":::
+:::image type="content" source="./media/impacted-resource-maintenance/sh-pm-csv-2.png" alt-text="Screenshot of csv file format.":::
 
 
 Below is a short description of each of the column properties:
