@@ -2,7 +2,7 @@
 title: Azure Resource Health overview
 description: Learn how Azure Resource Health helps you diagnose and get support for service problems that affect your Azure resources.
 ms.topic: concept-article
-ms.date: 02/14/2023
+ms.date: 10/16/2023
 
 ---
 # Resource Health overview
@@ -31,7 +31,7 @@ The health of a resource is displayed as one of the following statuses.
 
 *Unavailable* means that the service detected an ongoing platform or non-platform event that affects the health of the resource.
 
-#### Platform events
+##### Platform events
 
 Platform events are triggered by multiple components of the Azure infrastructure. They include both scheduled actions (for example, planned maintenance) and unexpected incidents (for example, an unplanned host reboot or degraded host hardware that is predicted to fail after a specified time window).
 
@@ -39,7 +39,7 @@ Resource Health provides additional details about the event and the recovery pro
 
 ![Status of *Unavailable* for a virtual machine because of a platform event](./media/resource-health-overview/Unavailable.png)
 
-#### Non-platform events
+##### Non-platform events
 
 Non-platform events are triggered by user actions. Examples include stopping a virtual machine or reaching the maximum number of connections to Azure Cache for Redis.
 
@@ -75,7 +75,7 @@ To know which resources support health metrics, refer to [Supported Resource Typ
 
 A resource health event is recorded in the activity log when:
 - An annotation, for example "ResourceDegraded" or "AccountClientThrottling", is submitted for a resource.
-- A resource transitioned to or from Unhealthy.
+- A resource transitioned to/from Unhealthy.
 - A resource was Unhealthy for more than 15 minutes.
 
 The following resource health transitions aren't recorded in the activity log:
