@@ -2,7 +2,7 @@
 title: Azure Service Health portal update
 description: We're updating the Azure Service Health portal experience to let users engage with service events and manage actions to maintain the business continuity of impacted applications.
 ms.topic: overview
-ms.date: 06/10/2022
+ms.date: 01/27/2025
 ---
 
 # Azure Service Health portal update
